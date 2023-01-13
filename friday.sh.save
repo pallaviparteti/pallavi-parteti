@@ -1,0 +1,6 @@
+for file in `ls *.java`;
+do
+fold=`echo $file | awk -F. '{print $}'`;
+echo $fold;
+mkdir s1/
+done
